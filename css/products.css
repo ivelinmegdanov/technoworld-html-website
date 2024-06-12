@@ -1,0 +1,161 @@
+.featured {
+  padding: 50px 15%;
+}
+.featured h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+.products-title {
+  color: #333;
+  font-weight: 400;
+}
+.product {
+  width: 220px;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s ease;
+}
+.product:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #3452ff;
+}
+.product img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.product h3 {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #333;
+}
+.product p {
+  color: #555;
+  margin-bottom: 10px;
+}
+.product button {
+  background-color: #fff;
+  color: #555;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.product button:hover {
+  background-color: #3452ff;
+  color: #fff;
+}
+.product-menu {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+}
+.filters-title {
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.filter-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+}
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+.filter-group input[type="text"] {
+  width: 100%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #3452ff;
+  border-radius: 20px;
+  transition: box-shadow 0.1s;
+}
+.filter-group input[type="text"]:focus,
+.filter-group input[type="text"]:hover {
+  outline: none;
+  box-shadow: 0 0 5px 0 #3452ff;
+  transition: box-shadow 0.1s;
+}
+.filter-group select {
+  width: 100%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #3452ff;
+  border-radius: 20px;
+  background-color: #fff;
+  transition: box-shadow 0.1s;
+}
+.filter-group input[type="range"] {
+  width: 100%;
+  padding: 8px 15px;
+}
+.filter-btn {
+  padding: 10px 20px;
+  background-color: #3452ff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.filter-btn:hover {
+  background-color: #5770ff;
+}
+.hr-space {
+  margin: 40px 0;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.pagination button {
+  font-size: 14px;
+  padding: 10px 20px;
+  color: #3452ff;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.pagination button:hover {
+  color: #8496ff;
+}
+
+/* Оценка Звездички */
+.rating {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.rating .star {
+  color: #ffd700;
+  font-size: 20px;
+  margin: 0 2px;
+}
+.rating .star.filled::before {
+  content: "\2605";
+}
+.rating .star.unfilled::before {
+  content: "\2606";
+}

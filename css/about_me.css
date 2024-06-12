@@ -1,0 +1,126 @@
+.profile-pic {
+  margin-top: 20px;
+  width: 350px;
+  min-width: 350px;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 5;
+}
+.me-and-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.contact {
+  padding: 50px 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+.contact-title {
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+hr {
+  width: 100%;
+}
+.contact-information h2 {
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.form {
+  margin-top: 20px;
+  width: 40%;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  align-items: flex-end;
+}
+.form input {
+  padding: 10px 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 25px;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.2s ease-in-out;
+}
+.form input:hover,
+.form input:focus {
+  border-color: #3452ff;
+}
+.form textarea {
+  padding: 10px 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  height: 100px;
+  resize: none;
+  transition: border-color 0.2s ease-in-out;
+}
+.form textarea:hover,
+.form textarea:focus {
+  border-color: #3452ff;
+}
+.form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #3452ff;
+  width: 150px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+  right: 0;
+}
+.form button:hover {
+  background-color: #253ab3;
+}
+.contact-info p {
+  margin-bottom: 10px;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+.contact-info p:hover {
+  color: #3452ff;
+}
+.contact-info strong {
+  color: #000000;
+  margin-right: 5px;
+}
+.user,
+.email,
+.phone,
+.message {
+  width: 100%;
+}
+.hover-effect-container {
+  display: flex;
+  align-items: center;
+}
+.contact-information {
+  border: 1px solid #e1e1e1;
+  padding: 40px 20px;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+.profile-pic:hover + .contact-information,
+.contact-information:hover {
+  transform: translateX(0);
+  transform: scale(1);
+}
+.contact-title-form {
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+}

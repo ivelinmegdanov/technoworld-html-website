@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Начало - Technoworld</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/default.css" />
+  </head>
+  <body>
+    <!-- Навигационна лента -->
+    <nav class="navbar">
+      <div class="navbar-top">
+        <img
+          href="index.html"
+          class="logo"
+          src="../images/logoBig.png"
+          alt="Logo"
+        />
+        <form action="products.html" method="get">
+          <input type="text" name="search" placeholder="Търсене..." />
+        </form>
+        <div class="navbar-icons">
+          <a href="#" class="hearth-icon">
+            <img src="../images/hearth.png" alt="Hearth Cart" />
+          </a>
+          <a href="#" class="cart-icon">
+            <img src="../images/shoppingCart.png" alt="Shopping Cart" />
+            <span>0</span>
+          </a>
+        </div>
+      </div>
+      <div class="navbar-bottom">
+        <li><a href="index.html" style="color: #3452ff">Начало</a></li>
+        <li><a href="products.html">Продукти</a></li>
+        <li><a href="clients.html">Клиенти</a></li>
+        <li><a href="about.html">Услуги</a></li>
+        <li><a href="about_me.html">За мен</a></li>
+        <li><a href="login.html">Вход</a></li>
+      </div>
+    </nav>
+
+    <!-- Въртящ се Банер -->
+    <div class="banner">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../images/home/banner1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../images/home/banner2.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../images/home/banner3.png" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+    <!-- Услуги -->
+    <div class="features">
+      <div class="feature">
+        <img src="../images/home/home.png" alt="Feature 1" />
+        <div class="feature-text">
+          <h3>Доставка до вкъщи</h3>
+          <p>Безплатно за всички поръчки</p>
+        </div>
+      </div>
+      <div class="feature">
+        <img src="../images/home/money.png" alt="Feature 2" />
+        <div class="feature-text">
+          <h3>100% връщане на парите</h3>
+          <p>При некоректна поръчка</p>
+        </div>
+      </div>
+      <div class="feature">
+        <img src="../images/home/rocket.png" alt="Feature 3" />
+        <div class="feature-text">
+          <h3>Бърза доставка</h3>
+          <p>От 2 до 3 работни дни</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Продукти -->
+    <div class="featured">
+      <h2>Най-продавани продукти</h2>
+      <div class="products">
+        <div class="product">
+          <img src="../images/home/product1.png" alt="Product 1" />
+          <h3>AMD Ryzen 5 7600X</h3>
+          <p>519.99лв.</p>
+          <div class="rating">
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+          </div>
+          <button>Добави в количката</button>
+        </div>
+        <div class="product">
+          <img src="../images/home/product2.png" alt="Product 2" />
+          <h3>GeForce RTX 4070 12G</h3>
+          <p>1499.99лв.</p>
+          <div class="rating">
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star unfilled"></span>
+          </div>
+          <button>Добави в количката</button>
+        </div>
+        <div class="product">
+          <img src="../images/home/product3.png" alt="Product 3" />
+          <h3>MSI B550-A PRO</h3>
+          <p>239.99лв.</p>
+          <div class="rating">
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star unfilled"></span>
+          </div>
+          <button>Добави в количката</button>
+        </div>
+        <div class="product">
+          <img src="../images/home/product4.jpg" alt="Product 4" />
+          <h3>SAMSUNG SSD 250GB</h3>
+          <p>109.99лв.</p>
+          <div class="rating">
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star unfilled"></span>
+            <span class="star unfilled"></span>
+          </div>
+          <button>Добави в количката</button>
+        </div>
+        <div class="product">
+          <img src="../images/home/product5.jpg" alt="Product 5" />
+          <h3>DeepCool MACUBE 110</h3>
+          <p>89.99лв</p>
+          <div class="rating">
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star unfilled"></span>
+          </div>
+          <button>Добави в количката</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Специални оферти -->
+    <div class="special-offers">
+      <div
+        class="offer-card"
+        style="background-image: url('../images/home/promotionCPU.avif')"
+      >
+        <div class="text-content">
+          <h2>Светкавично бързи</h2>
+          <h3>AMD Ryzen series</h3>
+          <p>Започват от <span class="price">300лв</span></p>
+        </div>
+      </div>
+      <div
+        class="offer-card"
+        style="background-image: url('../images/home/promotionGPU.avif')"
+      >
+        <div class="text-content">
+          <h2>Грабни RTX сега</h2>
+          <h3>Nvidia RTX series</h3>
+          <p>Започват от <span class="price">600лв</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Банер за партньори -->
+    <div class="partners">
+      <div class="scrolling-logos">
+        <img src="../images/home/partner1.png" alt="Partner Logo" />
+        <img src="../images/home/partner2.png" alt="Partner Logo" />
+        <img src="../images/home/partner3.webp" alt="Partner Logo" />
+        <img src="../images/home/partner4.webp" alt="Partner Logo" />
+        <img src="../images/home/partner5.png" alt="Partner Logo" />
+        <img src="../images/home/partner6.png" alt="Partner Logo" />
+      </div>
+    </div>
+
+    <!-- Бюлетин -->
+    <div class="newsletter">
+      <h2>Абонирайте се за нашия бюлетин</h2>
+      <form>
+        <input type="email" name="email" placeholder="Вашият имейл" />
+        <button>Абониране</button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-column">
+        <h3>Продукти</h3>
+        <ul>
+          <li><a href="#">SSD и Твърди дискове</a></li>
+          <li><a href="#">Дънни платки</a></li>
+          <li><a href="#">Видеокарти</a></li>
+          <li><a href="#">Процесори</a></li>
+          <li><a href="#">Кутии</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Контакти</h3>
+        <ul>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Линкове</h3>
+        <ul>
+          <li><a href="index.html">Начало</a></li>
+          <li><a href="products.html">Продукти</a></li>
+          <li><a href="clients.html">Клиенти</a></li>
+          <li><a href="about.html">Услуги</a></li>
+          <li><a href="about_me.html">За мен</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>За мен</h3>
+        <ul>
+          <li><a href="">Ивелин Мегданов</a></li>
+          <li><a href="tel:+359123123123">+359123123123</a></li>
+          <li>
+            <a href="mailto:iv4o.megdanov@gmail.com">iv4o.megdanov@gmail.com</a>
+          </li>
+          <li>
+            <a href="">ул. Някъде Там 123</a>
+          </li>
+          <li><a href="">гр. Велико Търново</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Javascript и Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/home.js"></script>
+  </body>
+</html>

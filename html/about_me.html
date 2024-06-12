@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>За Мен - Technoworld</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/about_me.css" />
+    <link rel="stylesheet" href="../css/default.css" />
+  </head>
+  <body>
+    <!-- Навигационна лента -->
+    <nav class="navbar">
+      <div class="navbar-top">
+        <img
+          href="index.html"
+          class="logo"
+          src="../images/logoBig.png"
+          alt="Logo"
+        />
+        <form action="products.html" method="get">
+          <input type="text" name="search" placeholder="Търсене..." />
+        </form>
+        <div class="navbar-icons">
+          <a href="#" class="hearth-icon">
+            <img src="../images/hearth.png" alt="Hearth Cart" />
+          </a>
+          <a href="#" class="cart-icon">
+            <img src="../images/shoppingCart.png" alt="Shopping Cart" />
+            <span>0</span>
+          </a>
+        </div>
+      </div>
+      <div class="navbar-bottom">
+        <li><a href="index.html">Начало</a></li>
+        <li><a href="products.html">Продукти</a></li>
+        <li><a href="clients.html">Клиенти</a></li>
+        <li><a href="about.html">Услуги</a></li>
+        <li><a href="about_me.html" style="color: #3452ff">За мен</a></li>
+        <li><a href="login.html">Вход</a></li>
+      </div>
+    </nav>
+    <div class="contact">
+      <h2 class="contact-title">За Мен</h2>
+      <hr />
+      <div class="me-and-form">
+        <div class="hover-effect-container">
+          <img
+            src="../images/about_me/me.jpg"
+            alt="Ивелин Мегданов"
+            class="profile-pic"
+          />
+          <div class="contact-information">
+            <div class="contact-info">
+              <h2>Контакти</h2>
+              <p><strong>Имейл:</strong>iv4o.megdanov@gmail.com</p>
+              <p><strong>Телефон:</strong>+359123123123</p>
+              <p><strong>Град:</strong>гр. Велико Търново</p>
+              <p><strong>Адрес:</strong>ул. Някъде Там 123</p>
+              <p><strong>Инфо:</strong>Нещо да има</p>
+              <p><strong>Още инфо:</strong>Още нещо пише</p>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <h2 class="contact-title-form">Искате да ме питате нещо?</h2>
+          <form
+            action="https://api.web3forms.com/submit"
+            method="post"
+            class="contact-form"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="a297bd6e-7523-4e39-a456-91925d9cc633"
+            />
+            <div class="user">
+              <input
+                type="text"
+                name="user"
+                placeholder="Две имена"
+                title="Въведете 2 имена с разтояние между тях"
+                required
+                pattern="(^[a-zA-Zа-яА-Я]{1,30} [a-zA-Zа-яА-Я]{1,30}$)"
+              />
+            </div>
+            <div class="phone">
+              <input type="tel" name="phone" placeholder="Телефонен номер" />
+            </div>
+            <div class="email">
+              <input type="email" name="email" placeholder="Имейл" />
+            </div>
+            <div class="message">
+              <textarea
+                name="message"
+                placeholder="Въведете своя текст тук..."
+              ></textarea>
+            </div>
+
+            <button type="submit">Изпрати</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-column">
+        <h3>Продукти</h3>
+        <ul>
+          <li><a href="#">SSD и Твърди дискове</a></li>
+          <li><a href="#">Дънни платки</a></li>
+          <li><a href="#">Видеокарти</a></li>
+          <li><a href="#">Процесори</a></li>
+          <li><a href="#">Кутии</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Контакти</h3>
+        <ul>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Линкове</h3>
+        <ul>
+          <li><a href="index.html">Начало</a></li>
+          <li><a href="products.html">Продукти</a></li>
+          <li><a href="clients.html">Клиенти</a></li>
+          <li><a href="about.html">Услуги</a></li>
+          <li><a href="about_me.html">За мен</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>За мен</h3>
+        <ul>
+          <li><a href="">Ивелин Мегданов</a></li>
+          <li><a href="tel:+359123123123">+359123123123</a></li>
+          <li>
+            <a href="mailto:iv4o.megdanov@gmail.com">iv4o.megdanov@gmail.com</a>
+          </li>
+          <li>
+            <a href="">ул. Някъде Там 123</a>
+          </li>
+          <li><a href="">гр. Велико Търново</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

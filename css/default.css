@@ -1,0 +1,136 @@
+/* Стилове които се прилагат на всички страници */
+body {
+  font-family: "DaxlinePro", "Ubuntu", "Lucida", "Trebuchet MS", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+body,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #e1e1e1;
+}
+
+/* Навигационна лента */
+.navbar {
+  background-color: #fff;
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15%;
+  gap: 100px;
+  width: 100%;
+}
+.navbar-bottom {
+  display: flex;
+  padding: 20px 15%;
+  width: 100%;
+}
+.navbar .logo {
+  height: 80px;
+}
+.navbar form {
+  flex-grow: 1;
+}
+.navbar input[type="text"] {
+  width: 100%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #3452ff;
+  border-radius: 20px;
+  transition: box-shadow 0.1s;
+}
+.navbar input[type="text"]:focus,
+.navbar input[type="text"]:hover {
+  outline: none;
+  box-shadow: 0 0 5px 0 #3452ff;
+  transition: box-shadow 0.1s;
+}
+.navbar-icons {
+  display: flex;
+  gap: 20px;
+}
+.navbar a.cart-icon,
+.navbar a.hearth-icon {
+  position: relative;
+  text-decoration: none;
+}
+.navbar a.cart-icon img,
+.navbar a.hearth-icon img {
+  width: 30px;
+  margin-right: 5px;
+}
+.navbar a.cart-icon span,
+.navbar a.hearth-icon span {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: #3452ff;
+  color: white;
+  font-size: 0.75em;
+}
+.navbar-bottom li {
+  list-style: none;
+}
+.navbar-bottom li a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 40px;
+  transition: color 0.3s;
+}
+.navbar-bottom li a:hover {
+  color: #3452ff;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  padding: 50px 20px;
+  background-color: #212121;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 10px;
+}
+.footer-column h3 {
+  font-size: 1.2em;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.footer-column ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+}
+.footer-column ul li a {
+  text-decoration: none;
+  color: #616161;
+  line-height: 2;
+  transition: color 0.3s;
+}
+.footer-column ul li a:hover {
+  color: #fff;
+}

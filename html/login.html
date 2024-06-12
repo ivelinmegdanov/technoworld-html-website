@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Начало - Technoworld</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/default.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body>
+    <!-- Навигационна лента -->
+    <nav class="navbar">
+      <div class="navbar-top">
+        <img
+          href="index.html"
+          class="logo"
+          src="../images/logoBig.png"
+          alt="Logo"
+        />
+        <form action="products.html" method="get">
+          <input type="text" name="search" placeholder="Търсене..." />
+        </form>
+        <div class="navbar-icons">
+          <a href="#" class="hearth-icon">
+            <img src="../images/hearth.png" alt="Hearth Cart" />
+          </a>
+          <a href="#" class="cart-icon">
+            <img src="../images/shoppingCart.png" alt="Shopping Cart" />
+            <span>0</span>
+          </a>
+        </div>
+      </div>
+      <div class="navbar-bottom">
+        <li><a href="index.html">Начало</a></li>
+        <li><a href="products.html">Продукти</a></li>
+        <li><a href="clients.html">Клиенти</a></li>
+        <li><a href="about.html">Услуги</a></li>
+        <li><a href="about_me.html">За мен</a></li>
+        <li><a href="login.html" style="color: #3452ff">Вход</a></li>
+      </div>
+    </nav>
+
+    <!-- Форма за вход и регистрация -->
+    <div class="container">
+      <div class="form-container">
+        <form class="login-form">
+          <h2>Вход</h2>
+          <div class="inputs">
+            <input type="email" placeholder="Имейл" required />
+            <input type="password" placeholder="Парола" required />
+            <div class="remember-me">
+              <input type="checkbox" id="remember" />
+              <label for="remember">Запомни ме</label>
+            </div>
+            <a href="#" class="forgotten-password">Забравена парола?</a>
+          </div>
+          <button type="submit">Вход</button>
+        </form>
+        <div class="separator"></div>
+        <form class="register-form">
+          <h2>Регистрация</h2>
+          <div class="inputs">
+            <input type="text" placeholder="Две имена" required />
+            <input type="email" placeholder="Имейл" required />
+            <input type="password" placeholder="Парола" required />
+          </div>
+          <button type="submit">Регистрация</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-column">
+        <h3>Продукти</h3>
+        <ul>
+          <li><a href="#">SSD и Твърди дискове</a></li>
+          <li><a href="#">Дънни платки</a></li>
+          <li><a href="#">Видеокарти</a></li>
+          <li><a href="#">Процесори</a></li>
+          <li><a href="#">Кутии</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Контакти</h3>
+        <ul>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Линкове</h3>
+        <ul>
+          <li><a href="index.html">Начало</a></li>
+          <li><a href="products.html">Продукти</a></li>
+          <li><a href="clients.html">Клиенти</a></li>
+          <li><a href="about.html">Услуги</a></li>
+          <li><a href="about_me.html">За мен</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>За мен</h3>
+        <ul>
+          <li><a href="">Ивелин Мегданов</a></li>
+          <li><a href="tel:+359123123123">+359123123123</a></li>
+          <li>
+            <a href="mailto:iv4o.megdanov@gmail.com">iv4o.megdanov@gmail.com</a>
+          </li>
+          <li>
+            <a href="">ул. Някъде Там 123</a>
+          </li>
+          <li><a href="">гр. Велико Търново</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
